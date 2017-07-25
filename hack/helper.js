@@ -49,7 +49,7 @@ function convertDataToVISData(data) {
                 id: startIndex++,
                 group: data[index].id,
                 content: getContentData(event.type),
-                title: getTitleHtml(event),
+                title: getTitleHtml(event.type, event, data[index].name),
                 start: event.startTime,
                 end: addMinutes(event.startTime, 30),
                 className: getClassName(event.type)
@@ -58,8 +58,8 @@ function convertDataToVISData(data) {
     }
 
     items = getMettingSchedules(items);
-   // items.add(...schedules);
-   
+    // items.add(...schedules);
+
     return {
         items: items,
         groups: groups
@@ -68,7 +68,7 @@ function convertDataToVISData(data) {
 
 function getMettingSchedules(items) {
 
-  //  var items = new vis.DataSet();
+    //  var items = new vis.DataSet();
 
     items.add({
         id: "A",
@@ -79,7 +79,7 @@ function getMettingSchedules(items) {
     });
 
     items.add({
-        id: "Bs",
+        id: "B",
         content: "Bug Bash",
         type: "background",
         start: new Date(2017, 7, 25, 15, 30, 0),
@@ -89,7 +89,7 @@ function getMettingSchedules(items) {
     return items;
 }
 
-function getContentData(eventType) {
+function getContentData(eventType, url) {
     if (eventType === "WorkItemEvent" || eventType === "WorkItemCompletedEvent") {
         return "W";
     }
@@ -98,9 +98,18 @@ function getContentData(eventType) {
     }
 }
 
-function getTitleHtml(event) {
+function getTitleHtml(eventType, event, workitemName) {
 
-    return '<h1>' + event.name + '</h1>';
+    if (eventType === "WorkItemEvent" || eventType === "WorkItemCompletedEvent") {
+        var html = '<div class="workitem-card">'+ 
+                       '<div class="workitem-card-name">'+workitemName + '</div>'+
+                       '<div class="workitem-card-event-type">Event:'+ event.name + '</div>'+
+                     '</div>'  
+        return html;
+    }
+    else {
+        return event.name;
+    }
 
 }
 
@@ -109,8 +118,8 @@ function getMockDataSet() {
         {
             id: 1,
             url: "http://www.mseng.visualstudio.com",
-            name: "User Story 1",
-            type: "UserStory",
+            name: "Task Item 1",
+            type: "Task",
             events: [
                 {
                     type: "WorkItemEvent",
@@ -148,8 +157,8 @@ function getMockDataSet() {
         {
             id: 2,
             url: "http://www.mseng.visualstudio.com",
-            name: "User Story 2",
-            type: "UserStory",
+            name: "Task Item 2",
+            type: "Task",
             events: [
                 {
                     type: "WorkItemEvent",

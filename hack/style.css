@@ -31,3 +31,17 @@ body, html {
 .vis-background{
 	text-align: center;
 }
+
+.workitem-card{
+ 
+  border-left: 10px solid yellow;
+  background: white !important;
+}
+
+.workitem-card-name{
+   font-size: 15px;
+}
+
+.workitem-card-event-type{
+  
+}
