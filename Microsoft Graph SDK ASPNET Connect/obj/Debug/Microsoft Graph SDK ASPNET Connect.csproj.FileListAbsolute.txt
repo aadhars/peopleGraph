@@ -1,0 +1,75 @@
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\csc.exe
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\csc.exe.config
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\csc.rsp
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\csi.exe
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\csi.rsp
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\System.AppContext.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\System.Collections.Immutable.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\System.IO.FileSystem.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\System.Reflection.Metadata.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\vbc.exe
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\vbc.exe.config
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\vbc.rsp
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\VBCSCompiler.exe
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\roslyn\VBCSCompiler.exe.config
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft Graph SDK ASPNET Connect.dll.config
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft Graph SDK ASPNET Connect.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft Graph SDK ASPNET Connect.pdb
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Antlr3.Runtime.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Graph.Core.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Graph.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Identity.Client.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Security.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Web.Infrastructure.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Newtonsoft.Json.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Owin.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Helpers.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Mvc.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Optimization.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Razor.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.WebPages.Deployment.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.WebPages.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.WebPages.Razor.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\WebGrease.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Antlr3.Runtime.pdb
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Identity.Client.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Security.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\Newtonsoft.Json.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Helpers.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Mvc.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Optimization.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.Razor.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.WebPages.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.WebPages.Deployment.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\bin\System.Web.WebPages.Razor.xml
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\obj\Debug\Microsoft Graph SDK ASPNET Connect.csprojResolveAssemblyReference.cache
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\obj\Debug\Microsoft Graph SDK ASPNET Connect.dll
+E:\Hack\aspnet-connect-sample-master\aspnet-connect-sample-master\Microsoft Graph SDK ASPNET Connect\Microsoft Graph SDK ASPNET Connect\obj\Debug\Microsoft Graph SDK ASPNET Connect.pdb
