@@ -49,7 +49,7 @@ function convertDataToVISData(data) {
                 id: startIndex++,
                 group: data[index].id,
                 content: getContentData(event.type),
-                title: event.name,
+                title: getTitleHtml(event),
                 start: event.startTime,
                 end: addMinutes(event.startTime, 30),
                 className: getClassName(event.type)
@@ -57,10 +57,36 @@ function convertDataToVISData(data) {
         }
     }
 
+    items = getMettingSchedules(items);
+   // items.add(...schedules);
+   
     return {
         items: items,
         groups: groups
     }
+}
+
+function getMettingSchedules(items) {
+
+  //  var items = new vis.DataSet();
+
+    items.add({
+        id: "A",
+        content: "Team Scrum",
+        type: "background",
+        start: new Date(2017, 7, 25, 10, 30, 0),
+        end: new Date(2017, 7, 25, 11, 30, 0)
+    });
+
+    items.add({
+        id: "Bs",
+        content: "Bug Bash",
+        type: "background",
+        start: new Date(2017, 7, 25, 15, 30, 0),
+        end: new Date(2017, 7, 25, 17, 30, 0)
+    });
+
+    return items;
 }
 
 function getContentData(eventType) {
@@ -70,6 +96,12 @@ function getContentData(eventType) {
     else if (eventType === "PullRequestedEvent") {
         return "P";
     }
+}
+
+function getTitleHtml(event) {
+
+    return '<h1>' + event.name + '</h1>';
+
 }
 
 function getMockDataSet() {
