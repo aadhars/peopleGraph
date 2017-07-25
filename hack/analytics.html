@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Your analytics</title>
+  
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.js"></script>
+  <script src="./helper.js"></script>
+
+  <!-- Styles -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.css" rel="stylesheet" type="text/css" />
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="visualization"></div>
+
+  <script type="text/javascript">
+
+    var container = document.getElementById('visualization');
+
+    // Items
+    var data = convertDataToVISData(getMockDataSet());
+
+    // Options
+    var options = {
+      width: '100%',
+      margin: {
+        item: 20
+      },
+      orientation: {
+        axis: "top"
+      },
+      stack: false
+    };
+
+    // Timeline
+    var timeline = new vis.Timeline(container, data.items, data.groups, options);
+  </script>
+</body>
+
+</html>
