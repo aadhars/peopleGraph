@@ -75,11 +75,9 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
 
                     error: function (e) {
 
-                        //TelemetryClient.getClient().trackException(e.response);
 
                     }
                 });
-
 
             });
         },
@@ -114,16 +112,11 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
 
                     success: function (c) {
 
-                        //console.log(c.dashboardEntries);
-
                         deferred.resolve(c.workItems);
 
                     },
 
                     error: function (e) {
-
-                        //TelemetryClient.getClient().trackException(e.response);
-
                     }
 
                 });
@@ -141,12 +134,6 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
         },
         showData: function (serverData) {
             var container = document.getElementById('visualization');
-
-
-
-            // Items
-
-            //var data = convertDataToVISData(getMockDataSet());
 
             var data = convertDataToVISData(serverData);
 
