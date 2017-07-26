@@ -1,0 +1,48 @@
+    {
+        "manifestVersion": 1,
+        "id": "sample-extension",
+        "version": "0.5.3",
+        "name": "My first sample extension",
+        "description": "A sample Visual Studio Services extension.",
+        "publisher": "aksriv",
+        "targets": [
+            {
+                "id": "Microsoft.VisualStudio.Services"
+                }
+            ],
+        "icons": {
+            "default": "images/logo.png"
+         },
+        "contributions": [
+            {
+                "id": "Fabrikam.HelloWorld",
+                "type": "ms.vss-web.hub",
+                "description": "Adds a 'Timeline' hub to the Work hub group.",
+                "targets": [
+                    "ms.vss-work-web.work-hub-group"
+                    ],
+                "properties": {
+                    "name": "Hello",
+                    "order": 99,
+                    "uri": "index.html"
+                }
+            }
+        ],
+        "scopes": [
+            "vso.work"
+        ],
+        "files": [
+            {
+                "path": "index.html", "addressable": true
+            },
+            {
+                "path": "scripts", "addressable": true
+            },
+            {
+                "path": "sdk/scripts", "addressable": true
+            },
+            {
+                "path": "images/logo.png", "addressable": true
+            }
+        ]
+    }

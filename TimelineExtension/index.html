@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Dependency Tracker</title>
+
+    <script src="sdk/scripts/VSS.SDK.js"></script>
+
+    <!-- Scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.js"></script>
+
+    <script src="./scripts/helper.js"></script>
+
+
+    <!-- Styles -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="./scripts/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <div id="visualization"></div>
+
+    <script>
+
+        // Initialize the VSS sdk
+
+        VSS.init({
+
+            usePlatformScripts: true,
+
+            usePlatformStyles: true,
+
+            explicitNotifyLoaded: true,
+
+            setupModuleLoader: true,
+
+            moduleLoaderConfig: {
+
+                paths: {
+
+                    "Scripts": "scripts"
+
+                }
+
+            }
+
+        });
+
+
+
+        // Wait for the SDK to be initialized
+
+        VSS.ready(function () {
+
+            VSS.register("sample-extension", {
+
+                pageTitle: function (state) {
+
+                    return "Backlog Dependencies";
+
+                },
+
+                isInvisible: function (state) {
+
+                    return false;
+
+                },
+
+                isDisabled: function (state) {
+
+                    return false;
+
+                }
+
+            });
+
+            VSS.require(["VSS/Controls", "Scripts/LoadData"], function (controls, dep) {
+                dep.dataLoader();
+                setTimeout(()=>{VSS.notifyLoadSucceeded();dep.showData(dep.workItemObjects);}, 10000);
+            });
+
+        });
+    </script>
+
+    </div>
+
+</body>
+
+</html>
