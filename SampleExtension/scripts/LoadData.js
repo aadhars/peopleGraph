@@ -39,7 +39,21 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
                     "events": [],
                     "endTime": null
                 }
-
+                
+                let relations = workItemDetails.relations;
+                if(relations){
+                    relations.forEach((relation)=>{
+                        if(relation.attributes && relation.attributes.name && relation.attributes.name === "Pull Request" ){
+                            workItemObject.events.push({
+                                name: "Pull Request",
+                                type: "PullRequestedEvent",
+                                startTime: relation.attributes.resourceModifiedDate,
+                                url: relation.url
+                            });
+                        }
+                    });
+                }
+                
                 //Get updates data
                 $.ajax({
                     url: workItemDetails._links.workItemUpdates.href,
@@ -133,7 +147,7 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
             deferred.promise().then(function (workItems) {
                 //Convert to JSON to extract link wise data
                 workItems.forEach(function (workItem) {
-                    that.getWorkItemData(workItem.url);
+                    that.getWorkItemData(workItem.url+'?$expand=all');
                 }, this);
 
             });

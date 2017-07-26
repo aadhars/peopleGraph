@@ -54,6 +54,11 @@ function convertDataToVISData(data) {
 
         var events = data[index].events;
 
+        // Sort events by start time.
+        events.sort(function(a, b) {
+            return new Date( a.startTime ) > new Date( b.startTime );
+        });
+
         var firstEvent = events[0];
 
         var endTime = data[index].endTime ? data[index].endTime : getTodayLastTime();
@@ -114,9 +119,6 @@ function convertDataToVISData(data) {
     items = getMettingSchedules(items);
 
     // items.add(...schedules);
-
-
-
     return {
 
         items: items,
