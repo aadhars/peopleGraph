@@ -27,10 +27,10 @@ function convertDataToVISData(data) {
 
         var events = data[index].events;
         var firstEvent = events[0];
-        var endTime;
-        if (true || events[events.length - 1].type === "WorkItemCompletedEvent") {
-            endTime = addMinutes(events[events.length - 1].startTime, 0);
-        }
+        var endTime = firstEvent.endTime ? firstEvent.endTime : getTodayLastTime();
+        // if (true || events[events.length - 1].type === "WorkItemCompletedEvent") {
+        //     endTime = addMinutes(events[events.length - 1].startTime, 0);
+        // }
 
         items.add({
             id: startIndex++,
@@ -87,6 +87,11 @@ function getMettingSchedules(items) {
     });
 
     return items;
+}
+
+function getTodayLastTime(){
+    var date = new Date();
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate()+1);
 }
 
 function getContentData(eventType, url) {
