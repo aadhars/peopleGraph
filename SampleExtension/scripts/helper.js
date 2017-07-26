@@ -147,7 +147,7 @@ function getMettingSchedules(items) {
 
         start: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 10, 0, 0),
 
-        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 11, 0, 0)
+        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 11, 30, 0)
 
     });
 
