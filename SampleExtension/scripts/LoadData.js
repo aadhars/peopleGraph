@@ -36,7 +36,8 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
                     "id": workItemDetails.id,
                     "name": workItemDetails.fields["System.Title"],
                     "type": workItemDetails.fields["System.WorkItemType"],
-                    "events": []
+                    "events": [],
+                    "endTime": null
                 }
 
                 //Get updates data
@@ -49,12 +50,12 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
 
                     success: function (workItemUpdates) {
 
-                        //console.log(c.dashboardEntries);
                         workItemUpdates.value.forEach(function (workItemUpdateValue) {
                             let workItemEvent = "WorkItemEvent";
                             if (workItemUpdateValue.fields["System.State"]) {
                                 if (workItemUpdateValue.fields["System.State"].newValue === "Closed") {
                                     workItemEvent = "WorkItemCompletedEvent";
+                                    isCompleted = true;
                                 }
                             }
                             let reason = workItemUpdateValue.fields["System.Reason"];
@@ -68,6 +69,11 @@ define(["require", "exports", "VSS/Authentication/Services"], function (require,
                                 });
                             }
                         });
+
+                        //If workitem is currently marked as closed
+                        if (workItemDetails.fields["System.State"] === "Closed") {
+                            workItemObject.endTime = workItemUpdates.value[workItemUpdates.value.length-1].fields["System.ChangedDate"].newValue;
+                        }
 
                         that.workItemObjects.push(workItemObject);
                         console.log(that.workItemObjects);

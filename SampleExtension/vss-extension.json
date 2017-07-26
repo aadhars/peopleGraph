@@ -1,7 +1,7 @@
     {
         "manifestVersion": 1,
         "id": "sample-extension",
-        "version": "0.5.3",
+        "version": "0.5.5",
         "name": "My first sample extension",
         "description": "A sample Visual Studio Services extension.",
         "publisher": "aksriv",
