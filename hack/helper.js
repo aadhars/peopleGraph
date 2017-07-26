@@ -60,6 +60,10 @@ function convertDataToVISData(data) {
     items = getMettingSchedules(items);
     // items.add(...schedules);
 
+    items.sort(function(a, b) {
+        return new Date( a.start ) < new Date( b.sta );
+    });
+    
     return {
         items: items,
         groups: groups
