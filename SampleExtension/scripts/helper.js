@@ -134,40 +134,38 @@ function getMettingSchedules(items) {
 
 
     //  var items = new vis.DataSet();
+    var date = new Date();
+
+
+    items.add({
+
+        id: "A",
+
+        content: "Team Scrum",
+
+        type: "background",
+
+        start: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 10, 0, 0),
+
+        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 11, 0, 0)
+
+    });
 
 
 
-    // items.add({
+    items.add({
 
-    //     id: "A",
+        id: "B",
 
-    //     content: "Team Scrum",
+        content: "Bug Bash",
 
-    //     type: "background",
+        type: "background",
 
-    //     start: new Date(2017, 7, 25, 10, 30, 0),
+        start: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 15, 30, 0),
 
-    //     end: new Date(2017, 7, 25, 11, 30, 0)
+        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 17, 30, 0)
 
-    // });
-
-
-
-    // items.add({
-
-    //     id: "B",
-
-    //     content: "Bug Bash",
-
-    //     type: "background",
-
-    //     start: new Date(2017, 7, 25, 15, 30, 0),
-
-    //     end: new Date(2017, 7, 25, 17, 30, 0)
-
-    // });
-
-
+    });
 
     return items;
 
