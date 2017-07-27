@@ -88,6 +88,16 @@ body, html {
 
 .workitem-card-event-type{
 
-  
+}
 
+.onepager {
+  background-color: lavender !important;
+}
+
+.calender {
+  background-color: lightgrey !important;
+}
+
+.vis-vertical {
+  display: none;
 }

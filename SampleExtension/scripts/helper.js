@@ -149,7 +149,9 @@ function getMettingSchedules(items) {
 
         start: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 10, 0, 0),
 
-        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 11, 30, 0)
+        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 11, 30, 0),
+
+        className: "calender"
 
     });
 
@@ -165,7 +167,25 @@ function getMettingSchedules(items) {
 
         start: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 15, 30, 0),
 
-        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 17, 30, 0)
+        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 17, 30, 0),
+
+        className: "calender"
+
+    });
+
+    items.add({
+
+        id: "C",
+
+        content: "<div>REST Design <br> One Pager </div>",
+
+        type: "background",
+
+        start: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 8, 0, 0),
+
+        end: new Date(date.getFullYear(), date.getMonth(), date.getDate(), 9, 30, 0),
+
+        className: "onepager"
 
     });
 
